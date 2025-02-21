@@ -18,7 +18,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "Pp@050997",  
+    "password": "",  # Use your password here
     "database": "rag_chatbot"
 }
 
