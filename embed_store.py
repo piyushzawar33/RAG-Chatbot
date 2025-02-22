@@ -5,7 +5,7 @@ from data_preprocessing import get_chunks
 
 docs, chunks = get_chunks()
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "" # Put your huggingface key
 
 embedding_model = HuggingFaceEmbeddings(model_name ="sentence-transformers/all-MiniLM-L6-v2")
 
